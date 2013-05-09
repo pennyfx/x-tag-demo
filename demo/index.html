@@ -2,39 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Demo - X-Tag</title>
-    <link rel="stylesheet" type="text/css" href="x-tag-components.css"/>
-    <script type="text/javascript" src="x-tag-components.js"></script>
-	<style>
-
-
-      x-switch {
-        border-color: #C2C2C2;
-        color: #e6e6e6;
-        background-color: #E6E6E6;
-        -webkit-transition: background-color 0.25s ease, border-color 0.25s ease;
-        -moz-transition: background-color 0.25s ease, border-color 0.25s ease;
-        transition: background-color 0.25s ease, border-color 0.25s ease;
-        color: white;
-        font-size: 16px;
-      }
-
-      x-switch[checked]  {
-        border-color: rgb(0, 172, 206);
-        background-color: #00C3EA;
-        color: #fff;
-      }
-
-      x-switch .x-switch-background {
-        background: -moz-linear-gradient(left, #00C3EA 50%, #E6E6E6 50%);
-      }
-
-      x-switch .x-switch-text {
-        padding: 0px 6px;
-      }
-
-	</style>
+  <meta charset="utf-8" />
+  <title>Demo - X-Tag</title>
+  <link rel="stylesheet" type="text/css" href="x-tag-components.css"/>
+  <script type="text/javascript" src="x-tag-components.js"></script>
 </head>
 
 <body>
@@ -42,9 +13,11 @@
   <x-switch onText="✔" offText=" "></x-switch>
 
 <br>
+<br>
 
-  <x-spinner label="loading"></x-spinner>
+  <x-spinner label="Wait..."></x-spinner>
 
+<br>
 <br>
 
   <x-toggle label="Alpha" group="group1" checked></x-toggle>
@@ -54,12 +27,13 @@
   <x-toggle label="Epsilon" group="group1"></x-toggle>
 
   <br>
+  <br>
 
-  <form>
+
     <x-toggle label="One" name="test2" checked></x-toggle>
     <x-toggle label="Two" name="test2"></x-toggle>
     <x-toggle label="Three" name="test2"></x-toggle>
-  </form>
+
 
 </body>
 
